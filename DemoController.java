@@ -8,8 +8,8 @@ import java.sql.ResultSet;
 
 public class DemoController {
     static String url = "jdbc:oracle:thin:@localhost:1521:XE";
-    static String username = "test5";
-    static String password = "password";
+    static String username = " "; # your username
+    static String password = " "; # your password
 
     public static void main(String[] args) throws Exception {
         Class.forName("oracle.jdbc.driver.OracleDriver");
