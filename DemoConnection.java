@@ -10,8 +10,8 @@ import java.sql.ResultSet;
 
 public class DemoConnection {
     static String url = "jdbc:oracle:thin:@localhost:1521:XE";
-    static String username = "test5";
-    static String password = "password";
+    static String username = " "; # The one you created while setting up
+    static String password = " "; # your password
     public static void main(String[] args) throws Exception {
         Class.forName("oracle.jdbc.driver.OracleDriver");
         Connection conn = DriverManager.getConnection(url, username, password);
